@@ -1,0 +1,27 @@
+{
+  "name": "myzap",
+  "version": "1.0.0",
+  "description": "Free OpenSource Whatsapp Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Barsch",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^3.3.0",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "dialogflow": "^4.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mime": "^2.4.6",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "rxjs": "^6.6.3",
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.1",
+    "venom-bot": "^2.1.2"
+  }
+}
